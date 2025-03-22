@@ -47,3 +47,20 @@ body {
     border-color: #B30000;
   }
   
+  .btn-back {
+    background-color: transparent;
+    border: 2px solid #B30000;
+    color: #B30000;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .btn-back:hover {
+    background-color: #B30000;
+    color: #000;
+  }
+  
