@@ -1,0 +1,127 @@
+.header-custom{
+    background-color: #0a0a0a;
+}
+
+.logo-custom{
+height: 40px;
+width: 40px;
+}
+
+
+.anchor-custom{
+    text-decoration: none;
+    color: gray;
+}
+
+.placeholder-custom{
+    background-image: url(assets/copertina.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(113, 113, 113);
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+
+
+.card-custom {    
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+         
+}
+
+.img-1{
+    background-image: url(assets/img-card-1.jpg);
+}
+
+.img-2{
+    background-image: url(assets/img-card-2.jpg);
+}
+
+.img-3{
+    background-image: url(assets/img-card-3.jpg);
+}
+
+.img-4{
+    background-image: url(assets/img-card-4.jpg);
+}
+
+.card-text {
+    width: 200px;           
+    text-align: center;       
+    white-space: normal;      
+    overflow: visible;        
+    text-overflow: unset;     
+    margin: 0 auto;           
+}
+
+.margin-card-custom{
+    margin-bottom: 100px;
+}
+
+.quote-section {
+    background-color: #E5E7EB
+}
+
+.quote-text{
+    font-size: 28px;
+    color: #1F2937;
+    line-height: 1.6; 
+    max-width: 600px;   
+}
+
+.quote-author{
+    color: #1F2937;
+    font-size: 16px;
+    margin-top: 20px;    
+}
+
+.quote-border{
+    border: solid #E5E7EB;
+}
+
+/* Colori personalizzati */
+.bg-dark-custom {
+    background-color: #121212; /* Nero leggermente meno intenso */
+}
+
+.text-red-custom {
+    color: #bebdbd; /* Rosso brillante */
+}
+
+.text-red-custom h5,
+.text-red-custom p {
+    color: #bab8b8; /* Assicura che anche gli elementi figli abbiano il colore rosso */
+}
+
+.btn-red-custom {
+    background-color: transparent;     /* sfondo trasparente */
+    color: #bebdbd;                    /* testo rosso brillante */
+    border: 2px solid  #bebdbd;         /* bordo rosso */
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* HOVER - sfondo rosso, testo nero */
+.btn-red-custom:hover {
+    background-color: #00a63d;
+    color: #ffffff;
+    border-color:  #00a63d;
+}
+
+
+
+
+.footer-custom{
+    background-color:#000000;
+    color: #e5e7eb;
+    font-size: 14px;
+}
